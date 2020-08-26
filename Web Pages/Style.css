@@ -24,6 +24,12 @@ h2{
 
 .borderImg{
     
-    border: 2px solid red;
+    border: 12px solid red;
+    
+}
+
+ul li{
+    color: white;
+    font-size: 20px;
     
 }
