@@ -1,25 +1,66 @@
-body{
+html{
     
-    background-image: url(Destiny-Moon.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family: "Times New Roman",serif,sans-serif;
 }
 
-.container{
+body{
+    
+    /*background-image: url(Destiny-Moon.png);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    
+    background-color: #444;
+    text-align: center;
     
     
+    
+    
+}
+
+#foo{
+    color:red;
+}
+
+[id="foo"]{
+    color=cyan;
+}
+
+.container{   
     
    /* background: linear-gradient(to left,#00ccff,#b3f0ff);
     box-shadow: 2px 2px 5px black;*/
 }
 
-h1{
+.container h1{
+    
+    color:green;
+}
+
+h1, h2, h3{
     color: #ffffff; 
     text-shadow: 2px 2px 5px black;
+    line-height: 1rem;
+    font-family: sans-serif;
 }
+
 h2{
-    color: rgb(0,250,50);
-    text-shadow: 1px 1px 3px blue;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.formatting{
+    
+    font-size: 25px;
+    line-height: 2em;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    word-spacing: 10px;
+    text-transform: uppercase;
 }
 
 .borderImg{
@@ -31,5 +72,10 @@ h2{
 ul li{
     color: white;
     font-size: 20px;
+  
     
+}
+
+ul > li{
+    color:yellow;
 }
