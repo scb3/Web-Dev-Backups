@@ -5,7 +5,7 @@ body{
     background-size: cover;*/
     
     background-color: #444;
-    text-align: center;
+   /* text-align: center;*/
     
     
 }
@@ -63,10 +63,29 @@ a{
     text-transform: uppercase;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
 .borderImg{
     
-    border: 12px solid red;
-    
+   border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    border:2px solid #ddd;
+    padding: 5px;    
+}
+
+button{
+    color: white;
+    background: red;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
 }
 
 ul li{
