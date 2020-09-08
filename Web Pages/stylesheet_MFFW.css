@@ -49,7 +49,7 @@ ul.topnav li a:hover{
     color: #fff;
 }
 
-ul.topnav li.DropDownIcon{
+ul.topnav li.dropdownicon{
     display: none;
 }
 
