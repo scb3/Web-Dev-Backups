@@ -212,10 +212,19 @@ footer.footsy h1{
 }
 
 footer.footsy ul{
-    color: #fff;
     list-style: none;
-    text-align: center;
+    text-align: left;
+    padding-left: 0;
 }
+
+footer.footsy ul li{
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+
+}
+
+
 
 /*##### Mobile #####*/
 
@@ -261,9 +270,14 @@ footer.footsy ul{
     .col-6,
     .col-4,
     .col-7,
-    .col-5 {
+    .col-5{
         width: 100%;
         margin: 0;
+    }
+    
+    div.mobileStack{
+        width: 50%;
+        display: block;
     }
     
     div.box{
