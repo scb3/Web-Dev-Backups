@@ -16,7 +16,8 @@ var loginWelcomeMessage = "Welcome " + firstName + " " + lastName +  ". Happy " 
 /* Developer Logging - Shift+Ctrl+J in browser */
 /*console.log(loginWelcomeMessage);*/
 
-if(1===1 && 2 === 2 || "joe" === "joe"){
+/* Javascript Logical Operators  */
+/*if(1===1 && 2 === 2 || "joe" === "joe"){
     
     console.log("These are both true");
 }
@@ -32,5 +33,42 @@ if ((cat1 > cat2 && cat1> cat3) && !cat3DisabledHandicap){
     console.log("cat 2 is the best");
 }else if((cat3>cat1 && cat3>cat2) || cat3DisabledHandicap){
     console.log("Cat 3 is the best");
+}*/
+
+/* Arrays */
+
+var students = ["timmy", "vanessa", "john"];
+
+var naughtyList = [];
+naughtyList.push(students[0]);
+
+var index = naughtyList.indexOf("timmy");
+console.log(naughtyList);
+var index2 = students.indexOf("john");
+
+if(index>-1){
+  naughtyList.splice(index,1);
 }
+
+
+console.log(naughtyList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
