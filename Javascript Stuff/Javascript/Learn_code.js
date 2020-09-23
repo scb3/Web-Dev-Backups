@@ -150,7 +150,7 @@ console.log(bankOperations);*/
 
 /* Objects */
 
-var students = [];
+/*var students = [];
 
 function student(first, last, age){
     this.firstName = first;
@@ -165,7 +165,7 @@ function student(first, last, age){
 students.push(new student("Jenny", "Lopez", 5));
 students.push(new student("Timmy", "Turner", 5));
 students.push(new student("Tim", "Turner", 5));
-students.push(new student("Tina", "Turner", 5));
+students.push(new student("Tina", "Turner", 5));*/
 
 /*var student0 = {
     firstName: "Peter",
@@ -190,19 +190,33 @@ student2.age = 12;
 var students = [];
 students.push(student0);
 students.push(student1);
-students.push(student2);*/
+students.push(student2);
 
 for (var index = 0; index < students.length; index++){
     var student = students[index];
     console.log(student.greeting());
-}
+}*/
 
+/* Bind Function */
 
+/*this.car = "Honda Civic"
 
+var scottsGarage = {
+    
+    car: "Aston Martin",
+    getCar: function(){
+        return this.car;
+    }  
+};
 
+console.log(scottsGarage.getCar());
 
+var storeGetCarForLater = scottsGarage.getCar;
 
+console.log(storeGetCarForLater());
 
+var theRealCarFunction = scottsGarage.getCar.bind(scottsGarage);
+console.log(theRealCarFunction);*/
 
 
 
